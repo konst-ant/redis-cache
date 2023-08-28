@@ -1,0 +1,7 @@
+application:
+    cache:
+        ttl: 120
+        max-idle-time: 120
+
+    clients:
+        swapi-baseurl: "https://swapi.dev"
