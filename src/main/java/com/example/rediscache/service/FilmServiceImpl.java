@@ -36,7 +36,7 @@ public class FilmServiceImpl implements FilmService {
          * Some business logic goes here
          */
         CheckResult checkResult = new CheckResult();
-        checkResult.setResult(true);
+        checkResult.setStatus(true);
         checkResult.setFailedCheck("my-prerequisite-check");
         checkResult.setMessage("My prerequisite check was successful !");
 
