@@ -37,8 +37,8 @@ public class FilmServiceImpl implements FilmService {
          */
         CheckResult checkResult = new CheckResult();
         checkResult.setStatus(true);
-        checkResult.setFailedCheck("my-prerequisite-check");
-        checkResult.setMessage("My prerequisite check was successful !");
+        checkResult.setFailedCheck("none");
+        checkResult.setMessage("All checks were successful !");
 
         /**
          * ---=== WRITE CACHE ===---
