@@ -1,3 +1,7 @@
+server:
+    port:
+        8081
+
 application:
     cache:
         ttl: 120
@@ -5,3 +9,4 @@ application:
 
     clients:
         swapi-baseurl: "https://swapi.dev"
+
